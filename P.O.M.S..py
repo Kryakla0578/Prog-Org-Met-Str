@@ -1,0 +1,8 @@
+my_strings = input('Имя: ')
+print(type(my_strings))
+print(len(my_strings))
+print('Привет,', my_strings.upper())
+print('Привет,', my_strings.lower())
+print('Давно не видели,'.replace(' ',''), my_strings)
+print('Привет,',my_strings[0])
+print('Привет,',my_strings[-1].upper())
